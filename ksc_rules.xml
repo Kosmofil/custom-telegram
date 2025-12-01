@@ -1,0 +1,8 @@
+<!-- /var/ossec/etc/rules/ksc_rules.xml -->
+<group name="kaspersky,">
+  <rule id="100150" level="9">
+    <decoded_as>ksc-cef</decoded_as>
+    <description>KSC Allert</description>
+  </rule>
+
+</group>
