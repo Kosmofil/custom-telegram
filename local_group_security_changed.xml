@@ -1,0 +1,20 @@
+<group name="windows,ad_security,critical_group,">
+<rule id="100111" level="14">
+<if_sid>60141</if_sid>
+<field name="win.eventdata.targetUserName">^GRRS$</field>
+<description>CRITICAL: Пользователь добавлен в группу 'GRRS'</description>
+<group>ad_security_monitoring,pci_dss_10.2.5,gdpr_IV_35.7.d,</group>
+</rule>
+<rule id="100112" level="14">
+<if_sid>60142</if_sid>
+<field name="win.eventdata.targetUserName">^GRRS2$</field>
+<description>CRITICAL: Изменение состава группы 'GRRS2' (удаление/модификация)</description>
+<group>ad_security_monitoring,pci_dss_10.2.5,gdpr_IV_35.7.d,</group>
+</rule>
+<rule id="100127" level="14">
+<if_sid>60142</if_sid>
+<field name="win.eventdata.targetUserName">^GRRS3$</field>
+<description>CRITICAL: Изменение состава группы 'GRRS3' (удаление/модификация)</description>
+<group>ad_security_monitoring,pci_dss_10.2.5,gdpr_IV_35.7.d,</group>
+</rule>
+</group>
