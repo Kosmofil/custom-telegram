@@ -24,10 +24,10 @@ TASK_TITLE_MAP = {
     "60115": "Windows AD: Учётная запись заблокирована (брутфорс)",
 }
   RESPONSIBLE_MAP = {
-    "100150": "{USER_ID_BITRIX}",
-    "100110": "{USER_ID_BITRIX}",
-    "100112": "{USER_ID_BITRIX}",
-    "60115": 1135,
+    "100150": {USER_ID_BITRIX},
+    "100110": {USER_ID_BITRIX},
+    "100112": {USER_ID_BITRIX},
+    "60115": {USER_ID_BITRIX},
 }
 
 KSC_PRODUCT_NAMES = {
